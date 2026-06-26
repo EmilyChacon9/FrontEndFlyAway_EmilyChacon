@@ -5,13 +5,18 @@ Emily Alessandra Chacón Ttito - 202510367
 ## Aclaraciones
 Estimado profesor, tuve que realizar algunos cambios en el backend porque no podía conectarse con normalidad el frontend con el backend por alguna razón. Los cambios realizados son los siguientes:
 
-FlightController: Se agregó @CrossOrigin(origins = "http://localhost:5173")
+**FlightController:** Se agregó @CrossOrigin(origins = "http://localhost:5173")
 
-UserController: Se agregó @CrossOrigin(origins = "http://localhost:5173")
+**UserController:** Se agregó @CrossOrigin(origins = "http://localhost:5173")
 
-AuthController: Se agregó @CrossOrigin(origins = "http://localhost:5173")
+**AuthController:** Se agregó @CrossOrigin(origins = "http://localhost:5173")
 
-Configuration: 
+Los CrossOrigins se deben modificar dependiendo de en que puerto se esté ejecutando el frontend del usuario.
+
+**application.properties:** Se agregó spring.h2.console.enabled=true para asegurarnos de que permita entrar a h2.console (al principio no dejaba utilizarlo)
+
+
+**Configuration:**
 
 Se modificó el funcionamiento de SecurityFilterChain para que permita acceder a los datos.
 
