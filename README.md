@@ -41,7 +41,7 @@ La tabla de los aspectos que se completaron (si los considere correctamente) son
 | Funcionalidad | Must Have | Nice to Have |
 |---------------|-----------|--------------|
 | Registro | Si | — |
-| Login | Si | No |
+| Login | Si | Si |
 | Búsqueda de vuelos | Si | Si |
 | Reservar vuelo | Si | Si |
 | Mis reservas | — | Si |
