@@ -1,0 +1,10 @@
+Hello Emi Emi,
+
+Your booking was successful! 
+
+The booking is for flight LA101 with departure date of 2026-06-28T04:18:00.423.000+00:00 and arrival date of 2026-06-28T09:18:00.423.000+00:00.
+
+The booking was registered at 2026-06-26T04:18:52.623+00:00.
+
+Bon Voyage!
+Fly Away Travel
