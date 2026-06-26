@@ -36,11 +36,10 @@ Se modificó el funcionamiento de SecurityFilterChain para que permita acceder a
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
         return http.build();
     }
-Los archivos que mandó son del frontend y los del backend por si acaso. 
+Los archivos que mando son del frontend y los del backend por si acaso. Se recomienda ejecutar primero el del backend y luego implementar el frontend.
 ----
 
 La tabla de los aspectos que se completaron (si los considere correctamente) son los siguientes:
-
 
 
 | Funcionalidad | Must Have | Nice to Have |
