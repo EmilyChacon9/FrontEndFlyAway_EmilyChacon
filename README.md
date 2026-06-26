@@ -44,6 +44,6 @@ La tabla de los aspectos que se completaron (si los considere correctamente) son
 | Login | Si | No |
 | Búsqueda de vuelos | Si | Si |
 | Reservar vuelo | Si | Si |
-| Mis reservas | — | No, está el código pero no funciona |
+| Mis reservas | — | Si |
 | Cerrar sesión & navegación | Si | — |
 
