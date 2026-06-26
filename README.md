@@ -1,5 +1,6 @@
 # FlyAway-Frontend_EmilyChacon
 
+Emily Alessandra Chacón Ttito - 202510367
 
 ## Aclaraciones
 Estimado profesor, tuve que realizar algunos cambios en el backend porque no podía conectarse con normalidad el frontend con el backend por alguna razón. Los cambios realizados son los siguientes:
@@ -30,4 +31,19 @@ Se modificó el funcionamiento de SecurityFilterChain para que permita acceder a
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
         return http.build();
     }
-Los archivos que mandó son del frontend. La tabla de los aspectos que se completaron (si los considere correctamente) son los siguientes:
+Los archivos que mandó son del frontend y los del backend por si acaso. 
+----
+
+La tabla de los aspectos que se completaron (si los considere correctamente) son los siguientes:
+
+
+
+| Funcionalidad | Must Have | Nice to Have |
+|---------------|-----------|--------------|
+| Registro | Si | — |
+| Login | Si | No |
+| Búsqueda de vuelos | Si | Si |
+| Reservar vuelo | Si | Si |
+| Mis reservas | — | No, está el código pero no funciona |
+| Cerrar sesión & navegación | Si | — |
+
