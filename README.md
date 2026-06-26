@@ -19,7 +19,7 @@ Los CrossOrigins se deben modificar dependiendo de en que puerto se esté ejecut
 **Configuration:**
 
 Se modificó el funcionamiento de SecurityFilterChain para que permita acceder a los datos.
-
+```
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http, JwtAuthFilter jwtAuthFilter) throws Exception {
         http
@@ -36,7 +36,17 @@ Se modificó el funcionamiento de SecurityFilterChain para que permita acceder a
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
         return http.build();
     }
-Los archivos que mando son del frontend y los del backend por si acaso. Se recomienda ejecutar primero el del backend y luego implementar el frontend.
+```
+Los archivos que mando son del frontend y los del backend por si acaso. Se recomienda ejecutar primero el del backend con 
+
+```./mvnw spring-boot:run```
+
+o simplemente hacer click en el botón Run.
+
+Luego implementar y ejecutar el frontend con
+
+```npm run dev```
+
 ----
 
 La tabla de los aspectos que se completaron (si los considere correctamente) son los siguientes:
